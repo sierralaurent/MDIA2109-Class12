@@ -9,13 +9,3 @@
   align-items: center;
   padding: 5%;
 }
-
-.area {
-  display: flex;
-  padding: 5%;
-}
-
-.main {
-  display: flex;
-  flex-direction: row;
-}

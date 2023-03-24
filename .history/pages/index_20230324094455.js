@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import BarChart from '@/components/BarChart'
 import Doughnut from '@/components/Doughnut'
-import PolarArea from '@/components/PolarArea'
 
 export default function Home() {
   return (
@@ -20,9 +19,6 @@ export default function Home() {
         </div>
         <div className={styles.doughnut}>
         <Doughnut />
-        </div>
-        <div className={styles.area}>
-        <PolarArea />
         </div>
       </main>
     </>

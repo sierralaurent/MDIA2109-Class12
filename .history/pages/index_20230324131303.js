@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.doughnut}>
         <Doughnut />
         </div>
-        <div className={styles.area}>
+        <div>
         <PolarArea />
         </div>
       </main>
